@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#todo-app{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+#new-task{
+    list-style: none;
+   padding: 0;
+}
+#task-list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.completd span{
+    text-decoration: line-through;
+    color: gray;
+}
+button{
+    margin: 5px;
+}
